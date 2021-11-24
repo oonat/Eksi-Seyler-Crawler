@@ -8,7 +8,7 @@ import locale
 
 class EntrySpider(CrawlSpider):
     """ 
-    Crawls favorite entry lists of the users given in the pickle file and writes them into an SQLite db.
+    Crawls the entries written under Eksi Seyler topics and writes them into an SQLite DB.
     """
 
     name = 'entry_spider'
